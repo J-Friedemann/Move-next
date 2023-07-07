@@ -8,6 +8,8 @@ import IphoneMockup from "../../../public/Group2.png";
 import Iphone from "../../../public/Iphone.svg";
 import Music from "../../../public/Music.svg";
 import Bogdan from "../../../public/Image.png";
+import ControlRight from "../../../public/Control_Right.svg";
+import ControlLeft from "../../../public/Control_Left.svg";
 import Image from "next/image";
 import React from "react";
 
@@ -177,7 +179,7 @@ const page = () => {
           <Image src={IphoneMockup} width={633} height={974} alt="" />
         </div>
       </div>
-      <div>
+      <div className="grid grid-flow-row auto-rows-max max-w-sm sm:max-w-md lg:max-w-lg  mx-auto mt-28 justify-items-start lg:content-center gap-6 md:gap-8 ">
         <h1 className=" text-support1 font-bold lg:text-6xl md:text-5xl sm:text-4xl text-3xl text-center">
           Customers are loving our Move Music
         </h1>
@@ -186,20 +188,26 @@ const page = () => {
           app. We are proud to have created a product that gives a vivid
           impression.
         </p>
-        <div className="w-96 mx-auto grid grid-cols-3">
+        <div className="w-96 mx-auto grid grid-cols-3 justify-items-start relative shadow-2xl p-6">
+          <button className="absolute z-10 -left-6 w-10 h-10 self-center drop-shadow-xl">
+            <Image src={ControlLeft} width={80} height={80} alt="" />
+          </button>
           <Image
-            className="w-20  rounded-full row-span-3"
+            className="w-20  rounded-full row-span-2"
             src={Bogdan}
             width={296}
             height={319}
             alt=""
           />
-          <h2 className="col-span-2">Bogdan Krivenchenko</h2>
+          <h2 className="col-span-2 self-end ">Bogdan Krivenchenko</h2>
           <h3 className="col-span-2">UI/UX Designer</h3>
-          <p className="col-span-2">
+          <p className="col-span-3 mt-4">
             Move Music app that changed my opinion about music! I would never
             have thought that you can import your music from another app!
           </p>
+          <button className="absolute z-10 -right-6 w-10 h-10 self-center drop-shadow-xl">
+            <Image src={ControlRight} width={80} height={80} alt="" />
+          </button>
         </div>
         <div></div>
       </div>
