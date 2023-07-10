@@ -14,7 +14,7 @@ const Footer = () => {
           <h1 className="text-3xl md:text-4xl xl:text-[2.5rem] font-bold text-TColor1 ">
             Move
           </h1>
-          <p className="text-base sm:text-lg xl:text-xl font-medium text-TColor2">
+          <p className="text-base max-w-[16rem] xs:max-w-xs sm:text-lg xl:text-xl font-medium text-TColor2">
             Move - Multipurpose Design Template will help you develop your
             website design.
           </p>
@@ -68,7 +68,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <p className="text-lg font-medium text-TColor2 text-center mt-16">
+      <p className="text-lg  max-w-[16rem] xs:max-w-xs font-medium text-TColor2 text-center mt-16 mx-auto">
         © 2019-2020 Wave Multipurpose Design Template.
       </p>
     </footer>
