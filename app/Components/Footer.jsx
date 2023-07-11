@@ -9,7 +9,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="mt-32 mb-10">
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-[minmax(270px,_1fr)repeat(3, minmax(0, 1fr)] xl:grid-cols-[minmax(270px,_1fr)repeat(4,1fr)] gap-8 place-items-start lg:max-w-7xl mx-auto md:max-w-2xl sm:max-w-lg max-w-xs lg:p-10">
+      <div className="grid grid-cols-2  sm:grid-cols-3 md:grid-cols-[minmax(270px,_1fr)repeat(3, minmax(0, 1fr)] xl:grid-cols-[minmax(270px,_1fr)repeat(4,1fr)] gap-8 place-items-start max-w-[16rem] xs:max-w-xs lg:max-w-7xl mx-auto md:max-w-2xl sm:max-w-lg lg:p-10">
         <div className="col-span-2 lg:col-span-1 grid grid-flow-row gap-6 ">
           <h1 className="text-3xl md:text-4xl xl:text-[2.5rem] font-bold text-TColor1 ">
             Move
