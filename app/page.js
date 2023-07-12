@@ -23,7 +23,7 @@ const page = () => {
         </p>
         <div className="grid grid-rows-2 sm:grid-cols-2 sm:grid-rows-1 sm:max-w-lg justify-items-center place-items-center mx-auto">
           <Button className="sm:my-9 my-3 ">Get Started</Button>
-          <button className="text-xl text-emphasis1 bg-add1 font-medium px-8 py-4 rounded-lg sm:my-9 my-3">
+          <button className="text-xl text-emphasis1 bg-alternative1 font-medium px-8 py-4 rounded-lg sm:my-9 my-3">
             View more
           </button>
         </div>
@@ -187,7 +187,7 @@ const page = () => {
           <Button>View More</Button>
         </div>
       </div>
-      <div className="grid grid-flow-row mt-28 gap-8 ">
+      <div className=" bg-support5  grid grid-flow-row mt-28 gap-8 ">
         <div className="lg:max-w-4xl mx-auto md:max-w-2xl sm:max-w-lg max-w-[16rem] xs:max-w-xs ">
           <h1 className="text-support1 font-bold lg:text-6xl md:text-5xl sm:text-4xl text-3xl text-center">
             Customers are loving our Move messenger
