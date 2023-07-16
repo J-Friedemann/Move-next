@@ -10,7 +10,7 @@ import FreeDebit from "../../../public/FreeDebit.svg";
 
 const page = () => {
   return (
-    <section className="container max-w-7xl mt-20 mx-auto">
+    <section className="container max-w-7xl mt-40 mx-auto">
       <div className="grid grid-flow-row mx-auto gap-10 lg:grid-cols-2 p-4">
         <div className="grid grid-flow-row max-w-[16rem] xs:max-w-xs sm:max-w-md lg:max-w-lg mx-auto gap-4 lg:gap-8 lg:place-content-center">
           <h1 className="text-support1 font-bold lg:text-6xl md:text-5xl sm:text-4xl xs:text-3xl text-2xl">
