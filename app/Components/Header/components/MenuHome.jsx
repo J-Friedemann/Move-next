@@ -1,5 +1,6 @@
 import React from "react";
 import { Menu } from "@headlessui/react";
+import Image from "next/image";
 
 const MenuHome = () => {
   const home = [
@@ -13,7 +14,9 @@ const MenuHome = () => {
       <div className="relative">
         <Menu.Button className="text-xl font-semibold text-support2 flex items-center  ">
           Home
-          <img
+          <Image
+            width={20}
+            height={20}
             className=" ml-2 h-5 w-5"
             src="/Header/SVG/icon-chevron-down-3.svg"
             alt=""
