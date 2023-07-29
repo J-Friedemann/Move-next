@@ -1,7 +1,3 @@
-import Dribbble from "../../public/Dribbble.svg";
-import Facebook from "../../public/Facebook.svg";
-import Twitter from "../../public/Twitter.svg";
-import Youtube from "../../public/Youtube.svg";
 import Image from "next/image";
 
 import React from "react";
@@ -19,10 +15,30 @@ const Footer = () => {
             website design.
           </p>
           <div className="grid grid-flow-col">
-            <Image src={Dribbble} alt="" />
-            <Image src={Facebook} alt="" />
-            <Image src={Twitter} alt="" />
-            <Image src={Youtube} alt="" />
+            <Image
+              src="/Footer/SVG/Dribbble.svg"
+              width={50}
+              height={50}
+              alt=""
+            />
+            <Image
+              src="/Footer/SVG/Facebook.svg"
+              width={50}
+              height={50}
+              alt=""
+            />
+            <Image
+              src="/Footer/SVG/Twitter.svg"
+              width={50}
+              height={50}
+              alt=""
+            />
+            <Image
+              src="/Footer/SVG/Youtube.svg"
+              width={50}
+              height={50}
+              alt=""
+            />
           </div>
         </div>
         <div className="grid grid-flow-row">

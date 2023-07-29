@@ -18,7 +18,11 @@ const Header = () => {
             <img
               width={30}
               height={30}
-              src={`${open ? "/close-outline.svg" : "/menu-outline.svg"}`}
+              src={`${
+                open
+                  ? "/Header/SVG/close-outline.svg"
+                  : "/Header/SVG/menu-outline.svg"
+              }`}
               alt=""
             />
           </button>

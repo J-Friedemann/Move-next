@@ -17,7 +17,7 @@ const MenuPage = () => {
           Pages{" "}
           <img
             className=" ml-2 h-5 w-5"
-            src="/icon-chevron-down-3.svg"
+            src="/Header/SVG/icon-chevron-down-3.svg"
             alt=""
           />
         </Menu.Button>

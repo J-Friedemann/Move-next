@@ -12,10 +12,10 @@ const MenuHome = () => {
     <Menu>
       <div className="relative">
         <Menu.Button className="text-xl font-semibold text-support2 flex items-center  ">
-          Home{" "}
+          Home
           <img
             className=" ml-2 h-5 w-5"
-            src="/icon-chevron-down-3.svg"
+            src="/Header/SVG/icon-chevron-down-3.svg"
             alt=""
           />
         </Menu.Button>
