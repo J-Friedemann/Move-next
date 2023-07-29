@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import MenuHome from "./components/menuHome";
+import MenuHome from "./components/MenuHome";
 import MenuPage from "./components/MenuPage";
 import Link from "next/link";
 
