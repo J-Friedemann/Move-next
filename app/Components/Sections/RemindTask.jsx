@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../utils/Button";
+import PrimaryButton from "../utils/PrimaryButton";
 import Image from "next/image";
 
 const RemindTask = () => {
@@ -20,10 +20,10 @@ const RemindTask = () => {
         </h1>
         <p className="md:text-xl text-support2 font-medium">
           You can use our messenger to set reminders for tasks that you want to
-          complete on time. And you can choose the importance of tasks using
+          complete on time. And you can choose the impo rtance of tasks using
           tags.
         </p>
-        <Button>View More</Button>
+        <PrimaryButton>View More</PrimaryButton>
       </div>
     </section>
   );

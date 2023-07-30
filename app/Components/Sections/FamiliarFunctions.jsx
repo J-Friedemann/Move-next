@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../utils/Button";
+import PrimaryButton from "../utils/PrimaryButton";
 import Image from "next/image";
 
 const FamiliarFunctions = () => {
@@ -71,7 +71,7 @@ const FamiliarFunctions = () => {
           The very functions that help you in everyday life are already built
           into our messenger and are not just built in but invented anew.
         </p>
-        <Button>Get Started</Button>
+        <PrimaryButton>Get Started</PrimaryButton>
       </div>
     </section>
   );

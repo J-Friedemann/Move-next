@@ -9,7 +9,7 @@ import BannerDownload from "./Components/Sections/BannerDownload";
 
 const page = () => {
   return (
-    <main className="container max-w-7xl mx-auto ">
+    <main className="container max-w-7xl mx-auto  mt-20 md:mt-60">
       <IntroductionMessenger />
       <CompaniesClients />
       <FamiliarFunctions />

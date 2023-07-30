@@ -1,6 +1,7 @@
-import Button from "@/app/Components/utils/Button";
+import PrimaryButton from "@/app/Components/utils/PrimaryButton";
 import React from "react";
 import Image from "next/image";
+import SecondaryButton from "@/app/Components/utils/SecondaryButton";
 
 const QuickPaymentsSection = () => {
   return (
@@ -14,10 +15,8 @@ const QuickPaymentsSection = () => {
           authorize payments. It is designed to help you conquer new horizons!
         </p>
         <div className="grid grid-flow-row justify-items-center gap-4 lg:grid-flow-col sm:my-4">
-          <Button>Get Started</Button>
-          <button className="text-base xs:text-lg sm:text-xl text-emphasis1 bg-alternative1 font-medium px-4 py-2 xs:px-6 xs:py-3 sm:px-8 sm:py-4 rounded-lg ">
-            View more
-          </button>
+          <PrimaryButton>Get Started</PrimaryButton>
+          <SecondaryButton>View more</SecondaryButton>
         </div>
         <div className="grid grid-cols-2 gap-3 lg:gap-8 sm:grid-cols-[1fr_3fr] gap-x-5 lg:grid-cols-[1fr_1fr_3fr]">
           <Image

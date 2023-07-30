@@ -24,7 +24,7 @@ const MenuPage = () => {
             alt=""
           />
         </Menu.Button>
-        <Menu.Items className="top-8 absolute mt-2 w-56 rounded-md shadow-lg bg-support4 ring-1 ring-support3 ring-opacity-5 divide-y divide-support3 focus:outline-none z-50">
+        <Menu.Items className="top-8 absolute mt-2 w-56 rounded-md shadow-lg bg-support4 ring-1 ring-support3 ring-opacity-5 divide-y divide-support3/50 focus:outline-none z-50">
           {pages.map((link) => (
             <Menu.Item
               as="a"

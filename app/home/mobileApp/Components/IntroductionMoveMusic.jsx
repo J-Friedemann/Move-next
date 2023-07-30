@@ -1,4 +1,4 @@
-import Button from "@/app/Components/utils/Button";
+import PrimaryButton from "@/app/Components/utils/PrimaryButton";
 import Image from "next/image";
 import React from "react";
 
@@ -14,7 +14,7 @@ const IntroductionMoveMusic = () => {
           of your musical taste. You can also try the extended version for free
           for 14 days.
         </p>
-        <Button>Start 14 Days Free Trial</Button>
+        <PrimaryButton>Start 14 Days Free Trial</PrimaryButton>
         <p className="md:text-lg text-support2 font-medium ">
           No credit card enquired
         </p>

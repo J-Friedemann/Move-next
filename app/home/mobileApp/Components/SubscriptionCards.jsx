@@ -1,10 +1,10 @@
-import Button from "@/app/Components/utils/Button";
+import PrimaryButton from "@/app/Components/utils/PrimaryButton";
 import Image from "next/image";
 import React from "react";
 
 const SubscriptionCards = () => {
   return (
-    <section className="grid grid-flow-row lg:grid-flow-col lg:max-w-6xl mx-auto mt-6 lg:mt-28">
+    <section className="grid grid-flow-row lg:grid-flow-col lg:max-w-6xl mx-auto mt-6 lg:mt-28 justify-items-center">
       <div className="grid grid-flow-row max-w-[16rem] xs:max-w-xs sm:max-w-96 gap-5 p-9">
         <h2 className="text-2xl xs:text-3xl font-bold text-emphasis3">Move</h2>
         <h1 className="text-5xl xs:text-6xl font-bold text-support1 ">Free</h1>
@@ -62,7 +62,7 @@ const SubscriptionCards = () => {
             </p>
           </div>
         </div>
-        <Button>Get Started</Button>
+        <PrimaryButton>Get Started</PrimaryButton>
       </div>
 
       <div className="grid grid-flow-row max-w-[16rem] xs:max-w-xs sm:max-w-96 gap-5 p-9">
@@ -121,7 +121,7 @@ const SubscriptionCards = () => {
             </p>
           </div>
         </div>
-        <Button>Get Started</Button>
+        <PrimaryButton>Get Started</PrimaryButton>
       </div>
       <div className="grid grid-flow-row max-w-[16rem] xs:max-w-xs sm:max-w-96 gap-5 p-9">
         <h2 className="text-2xl xs:text-3xl  font-bold text-emphasis2">
@@ -184,7 +184,7 @@ const SubscriptionCards = () => {
             </p>
           </div>
         </div>
-        <Button>Get Started</Button>
+        <PrimaryButton>Get Started</PrimaryButton>
       </div>
     </section>
   );

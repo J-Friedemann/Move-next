@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../utils/Button";
+import PrimaryButton from "../utils/PrimaryButton";
 import Image from "next/image";
 
 const MessengerCapable = () => {
@@ -13,7 +13,7 @@ const MessengerCapable = () => {
           Watch a short video that tells you about the useful features of our
           mobile app. Everything you need is always at hand with Move.
         </p>
-        <Button>View More</Button>
+        <PrimaryButton>View More</PrimaryButton>
       </div>
       <div className="relative mx-auto max-w-[16rem] xs:max-w-xs sm:max-w-xl lg:max-w-3xl">
         <Image

@@ -12,7 +12,7 @@ import SubscriptionCards from "./Components/SubscriptionCards";
 
 const page = () => {
   return (
-    <main className="mt-40 md:mt-60 container max-w-7xl mx-auto ">
+    <main className="mt-20 md:mt-60 container max-w-7xl mx-auto ">
       <IntroductionMoveMusic />
       <CardsMobileSection />
       <TrendMusicSection />

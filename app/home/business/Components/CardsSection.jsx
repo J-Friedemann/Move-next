@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const CardsSection = () => {
   return (
-    <section className="mt-20 grid grid-flow-row lg:grid-cols-2 gap-x-6 gap-y-8 mx-auto lg:place-content-evenly px-5">
+    <section className="mt-36 grid grid-flow-row lg:grid-cols-2 gap-x-6 gap-y-8 mx-auto lg:place-content-evenly  md:px-16">
       <div className="grid grid-cols-5 max-w-[16rem] xs:max-w-xs sm:max-w-md md:max-w-[37.75rem] mx-auto gap-y-4 gap-x-3 items-center bg-support4 p-4 rounded-md shadow-xl">
         <Image
           className="w-10 h-10 sm:w-20 sm:h-20"
