@@ -2,6 +2,7 @@ import React from "react";
 import TransactionSection from "./Components/TransactionSection";
 import QuickPaymentsSection from "./Components/QuickPaymentsSection";
 import CardsSection from "./Components/CardsSection";
+import TransferSection from "./Components/TransferSection";
 
 const page = () => {
   return (
@@ -9,6 +10,7 @@ const page = () => {
       <QuickPaymentsSection />
       <CardsSection />
       <TransactionSection />
+      <TransferSection />
     </main>
   );
 };
