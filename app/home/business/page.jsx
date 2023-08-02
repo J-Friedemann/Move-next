@@ -3,6 +3,7 @@ import TransactionSection from "./Components/TransactionSection";
 import QuickPaymentsSection from "./Components/QuickPaymentsSection";
 import CardsSection from "./Components/CardsSection";
 import TransferSection from "./Components/TransferSection";
+import Statistics from "./Components/Statistics";
 
 const page = () => {
   return (
@@ -11,6 +12,7 @@ const page = () => {
       <CardsSection />
       <TransactionSection />
       <TransferSection />
+      <Statistics />
     </main>
   );
 };
