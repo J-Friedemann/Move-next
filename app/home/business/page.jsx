@@ -4,6 +4,7 @@ import QuickPaymentsSection from "./Components/QuickPaymentsSection";
 import CardsSection from "./Components/CardsSection";
 import TransferSection from "./Components/TransferSection";
 import Statistics from "./Components/Statistics";
+import WhatAbout from "./Components/WhatAbout";
 
 const page = () => {
   return (
@@ -13,6 +14,7 @@ const page = () => {
       <TransactionSection />
       <TransferSection />
       <Statistics />
+      <WhatAbout />
     </main>
   );
 };

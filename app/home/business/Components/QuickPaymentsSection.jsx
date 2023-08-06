@@ -1,7 +1,7 @@
-import PrimaryButton from "@/app/Components/utils/PrimaryButton";
+import PrimaryButton from "@/app/Components/utils/buttons/PrimaryButton";
 import React from "react";
 import Image from "next/image";
-import SecondaryButton from "@/app/Components/utils/SecondaryButton";
+import SecondaryButton from "@/app/Components/utils/buttons/SecondaryButton";
 
 const QuickPaymentsSection = () => {
   return (

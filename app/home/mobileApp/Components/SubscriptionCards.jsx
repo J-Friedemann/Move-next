@@ -1,4 +1,4 @@
-import PrimaryButton from "@/app/Components/utils/PrimaryButton";
+import PrimaryButton from "@/app/Components/utils/buttons/PrimaryButton";
 import Image from "next/image";
 import React from "react";
 

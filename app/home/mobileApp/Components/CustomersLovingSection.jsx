@@ -1,16 +1,16 @@
+import BodyText from "@/app/Components/utils/text/BodyText";
+import Title from "@/app/Components/utils/text/Title";
 import Image from "next/image";
 import React from "react";
 
 const CustomersLovingSection = () => {
   return (
     <section className="grid grid-flow-row max-w-[16rem] xs:max-w-xs sm:max-w-md lg:max-w-4xl mt-28 gap-6 md:gap-8 content-center mx-auto">
-      <h1 className=" text-support1 font-bold lg:text-6xl md:text-5xl sm:text-4xl xs:text-3xl text-2xl text-center">
-        Customers are loving our Move Music
-      </h1>
-      <p className="text-base xs:text-lg md:text-xl text-support2 font-medium text-center">
+      <Title className="text-center">Customers are loving our Move Music</Title>
+      <BodyText className="text-center">
         Read the reviews that we regularly receive from users of our music app.
         We are proud to have created a product that gives a vivid impression.
-      </p>
+      </BodyText>
       <div className="min-w-72 mx-auto grid grid-cols-3 lg:grid-cols-[18.5rem_repeat(2,_minmax(0,_1fr))] justify-items-start relative shadow-2xl p-6 lg:w-[51rem] lg:h-[22.6rem] lg:p-1.375rem lg:gap-x-5">
         <button className="absolute z-10 -left-6 w-10 h-10 lg:w-20 lg:h-20 lg:-left-10 self-center drop-shadow-xl">
           <Image

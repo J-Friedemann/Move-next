@@ -1,20 +1,23 @@
 import React from "react";
-import PrimaryButton from "../utils/PrimaryButton";
+import PrimaryButton from "../utils/buttons/PrimaryButton";
 import Image from "next/image";
-import SecondaryButton from "../utils/SecondaryButton";
+import SecondaryButton from "../utils/buttons/SecondaryButton";
+import BodyText from "../utils/text/BodyText";
+import Title from "../utils/text/Title";
 
 const IntroductionMessenger = () => {
   return (
     <section className="mt-36 sm:mt-2">
       <div className="text-center lg:max-w-4xl mx-auto md:max-w-2xl sm:max-w-lg max-w-[16rem] xs:max-w-xs ">
-        <h1 className=" lg:text-7xl md:text-6xl sm:text-4xl font-bold text-support1 text-3xl">
+        <Title className="mt-6 xl:text-7xl">
           A messenger that is ahead of its time
-        </h1>
-        <p className="md:text-xl text-support2 mt-6">
+        </Title>
+        <BodyText className="mt-6">
           Try the new Move messenger! It will definitely impress you with its
           amazing features that will make it easier for you to communicate
           between your friends.
-        </p>
+        </BodyText>
+
         <div className="grid grid-rows-2 sm:grid-cols-2 sm:grid-rows-1 sm:max-w-lg justify-items-center items-center mx-auto sm:my-9 my-3 space-y-4 sm:space-y-0">
           <PrimaryButton>Get Started</PrimaryButton>
           <SecondaryButton>View more</SecondaryButton>

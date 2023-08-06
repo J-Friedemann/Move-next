@@ -1,6 +1,10 @@
 import React from "react";
-import PrimaryButton from "../utils/PrimaryButton";
+import PrimaryButton from "../utils/buttons/PrimaryButton";
 import Image from "next/image";
+import SmallText from "../utils/text/SmallText";
+import Heading4 from "../utils/text/Heading4";
+import Title from "../utils/text/Title";
+import BodyText from "../utils/text/BodyText";
 
 const FamiliarFunctions = () => {
   return (
@@ -14,11 +18,11 @@ const FamiliarFunctions = () => {
             height={80}
             alt=""
           />
-          <h2 className="text-2xl text-support1 font-bold">End-to-End</h2>
-          <p className="font-medium text-lg text-support2">
+          <Heading4>End-to-End</Heading4>
+          <SmallText>
             Our messenger uses only proven technologies. There fore, no one will
             read your messages.
-          </p>
+          </SmallText>
         </div>
         <div className=" flex flex-col w-72 h-80 shadow hover:shadow-2xl gap-5 p-8">
           <Image
@@ -28,11 +32,11 @@ const FamiliarFunctions = () => {
             height={80}
             alt=""
           />
-          <h2 className="text-2xl text-support1 font-bold">Voice Message</h2>
-          <p className="font-medium text-lg text-support2">
+          <Heading4>Voice Message</Heading4>
+          <SmallText>
             When you don't have time to write a text, send your companion a
             voice message.
-          </p>
+          </SmallText>
         </div>
         <div className=" flex flex-col w-72 h-80 shadow hover:shadow-2xl gap-5 p-8">
           <Image
@@ -42,11 +46,11 @@ const FamiliarFunctions = () => {
             height={80}
             alt=""
           />
-          <h2 className="text-2xl text-support1 font-bold">News Widget</h2>
-          <p className="font-medium text-lg text-support2">
+          <Heading4>News Widget</Heading4>
+          <SmallText>
             All the news of the world is at hand, our messenger has a
             pre-installed news widget.
-          </p>
+          </SmallText>
         </div>
         <div className=" flex flex-col w-72 h-80 shadow hover:shadow-2xl gap-5 p-8">
           <Image
@@ -56,21 +60,19 @@ const FamiliarFunctions = () => {
             src="/Utils/SVG/tagsIcon.svg"
             alt=""
           />
-          <h2 className="text-2xl text-support1 font-bold">Tags</h2>
-          <p className="font-medium text-lg text-support2">
+          <Heading4>Tags</Heading4>
+          <SmallText>
             Place messages in existing tags or create new ones. Using tags makes
             interaction easier.
-          </p>
+          </SmallText>
         </div>
       </div>
       <div className="grid grid-flow-row mx-auto lg:max-w-[28.75rem] mt-28 sm:mt-2 justify-items-start lg:content-center gap-6 md:gap-8">
-        <h1 className=" text-support1 font-bold lg:text-6xl md:text-5xl sm:text-4xl text-3xl">
-          Try the familiar functions in the new execution
-        </h1>
-        <p className="md:text-xl text-support2 font-medium ">
+        <Title>Try the familiar functions in the new execution</Title>
+        <BodyText>
           The very functions that help you in everyday life are already built
           into our messenger and are not just built in but invented anew.
-        </p>
+        </BodyText>
         <PrimaryButton>Get Started</PrimaryButton>
       </div>
     </section>

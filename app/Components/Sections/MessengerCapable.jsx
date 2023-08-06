@@ -1,18 +1,18 @@
 import React from "react";
-import PrimaryButton from "../utils/PrimaryButton";
+import PrimaryButton from "../utils/buttons/PrimaryButton";
 import Image from "next/image";
+import Title from "../utils/text/Title";
+import BodyText from "../utils/text/BodyText";
 
 const MessengerCapable = () => {
   return (
     <section className="grid grid-cols-1 grid-row-2 mt-28 xl:mt-72 gap-2 xl:grid-cols-2 max-w-[16rem] xs:max-w-xs  lg:max-w-7xl md:max-w-2xl sm:max-w-lg mx-auto">
       <div className="grid grid-flow-row auto-rows-max lg:max-w-3xl mx-auto  justify-items-start lg:content-center xl:pr-20  gap-6">
-        <h1 className="text-support1 font-bold lg:text-6xl md:text-5xl sm:text-4xl text-3xl">
-          Find out what Move Messenger is capable of
-        </h1>
-        <p className="md:text-xl text-support2 font-medium">
+        <Title>Find out what Move Messenger is capable of</Title>
+        <BodyText>
           Watch a short video that tells you about the useful features of our
           mobile app. Everything you need is always at hand with Move.
-        </p>
+        </BodyText>
         <PrimaryButton>View More</PrimaryButton>
       </div>
       <div className="relative mx-auto max-w-[16rem] xs:max-w-xs sm:max-w-xl lg:max-w-3xl">

@@ -4,7 +4,7 @@ import React from "react";
 import MenuHome from "./components/MenuHome";
 import MenuPage from "./components/MenuPage";
 import Link from "next/link";
-import PrimaryButton from "../utils/PrimaryButton";
+import PrimaryButton from "../utils/buttons/PrimaryButton";
 
 const Header = () => {
   const [open, setOpen] = React.useState(false);
