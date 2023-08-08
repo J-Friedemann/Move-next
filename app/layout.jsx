@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Move",
   description: "Move Messenger",
+  icons: {
+    icon: ["/favicon.png"],
+  },
 };
 
 export default function RootLayout({ children }) {
