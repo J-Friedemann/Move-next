@@ -5,6 +5,7 @@ import CardsSection from "./Components/CardsSection";
 import TransferSection from "./Components/TransferSection";
 import Statistics from "./Components/Statistics";
 import WhatAbout from "./Components/WhatAbout";
+import FrequentlyQuestion from "./Components/FrequentlyQuestion";
 
 const page = () => {
   return (
@@ -15,6 +16,7 @@ const page = () => {
       <TransferSection />
       <Statistics />
       <WhatAbout />
+      <FrequentlyQuestion />
     </main>
   );
 };
