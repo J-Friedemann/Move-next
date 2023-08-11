@@ -1,5 +1,5 @@
 import React from "react";
-import HeroSoftware from "./components/heroSoftware";
+import HeroSoftware from "./components/HeroSoftware";
 
 const page = () => {
   return (
