@@ -64,7 +64,7 @@ const OnePlace = () => {
       </div>
       <Image
         src="/Home/Software/Images/Dashboard.png"
-        className="max-w-[16rem] xs:max-w-xs sm:max-w-md mx-auto mt-28"
+        className="max-w-[16rem] xs:max-w-xs sm:max-w-md mx-auto mt-10 lg:mt-28"
         width={754}
         height={823}
         alt=""
