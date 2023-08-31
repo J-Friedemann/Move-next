@@ -3,6 +3,7 @@ import HeroSoftware from "./components/HeroSoftware";
 import OnePlace from "./components/OnePlace";
 import UniversalAccess from "./components/UniversalAccess";
 import GroundUp from "./components/GroundUp";
+import GoMove from "./components/GoMove";
 
 const page = () => {
   return (
@@ -11,6 +12,7 @@ const page = () => {
       <OnePlace />
       <UniversalAccess />
       <GroundUp />
+      <GoMove />
     </main>
   );
 };
