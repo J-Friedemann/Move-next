@@ -20,7 +20,7 @@ const HeroSoftware = () => {
         </SecondaryButton>
         <PrimaryButton>Go Premium</PrimaryButton>
         <Image
-          src="/Home/Software/Images/HeroImg.png"
+          src="/Page/Software/Images/HeroImg.png"
           width={1333}
           height={630}
           alt=""

@@ -20,7 +20,7 @@ const IntroductionMoveMusic = () => {
       </div>
       <Image
         className=" max-w-[16rem] xs:max-w-xs sm:max-w-md mx-auto mt-10 "
-        src="/Home/MobileApp/Images/IphoneMockup1.png"
+        src="/Page/MobileApp/Images/IphoneMockup1.png"
         width={634}
         height={974}
         alt=""

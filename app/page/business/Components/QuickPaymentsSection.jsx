@@ -21,14 +21,14 @@ const QuickPaymentsSection = () => {
         <div className="grid grid-cols-2 gap-3 lg:gap-8 sm:grid-cols-[1fr_3fr] gap-x-5 lg:grid-cols-[1fr_1fr_3fr]">
           <Image
             className="w-10 h-10 lg:w-[4.625rem] lg:h-[4.5rem] justify-self-end sm:row-start-1"
-            src="/Home/Business/SVG/Card_Apple.svg"
+            src="/Page/Business/SVG/Card_Apple.svg"
             width={74}
             height={72}
             alt=""
           />
           <Image
             className="w-10 h-10 lg:w-[4.625rem] lg:h-[4.5rem] sm:row-start-2 lg:row-start-1 sm:justify-self-end"
-            src="/Home/Business/SVG/Card_Google.svg"
+            src="/Page/Business/SVG/Card_Google.svg"
             width={74}
             height={72}
             alt=""
@@ -40,7 +40,7 @@ const QuickPaymentsSection = () => {
       </div>
       <Image
         className=" max-w-[16rem] xs:max-w-xs sm:max-w-md lg:max-w-lg xl:max-w-2xl mx-auto"
-        src="/Home/Business/Images/WomenSmiling.png"
+        src="/Page/Business/Images/WomenSmiling.png"
         width={730}
         height={892}
         alt=""

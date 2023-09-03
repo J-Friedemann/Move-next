@@ -14,7 +14,7 @@ const WhatAbout = () => {
       <div className="flex relative justify-center ">
         <Image
           className="relative"
-          src="/Home/Business/Images/Image-14.png"
+          src="/Page/Business/Images/Image-14.png"
           width={1028}
           height={571}
           alt=""
@@ -22,7 +22,7 @@ const WhatAbout = () => {
 
         <Image
           className="absolute w-10 h-10 top-12 xs:top-16 sm:top-20 sm:w-16 sm:h-20 lg:top-48 cursor-pointer"
-          src="/Home/Business/SVG/Button_Play.svg"
+          src="/Page/Business/SVG/Button_Play.svg"
           width={77}
           height={77}
           alt=""

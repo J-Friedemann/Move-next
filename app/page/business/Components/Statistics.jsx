@@ -6,7 +6,7 @@ const Statistics = () => {
     <section className="grid grid-flow-row mx-auto gap-10 xl:gap-24 lg:grid-cols-2 p-4 mt-36 ">
       <Image
         className="max-w-[16rem] xs:max-w-xs sm:max-w-md lg:max-w-lg mx-auto"
-        src="/Home/Business/Images/statistics.png"
+        src="/Page/Business/Images/statistics.png"
         width={707}
         height={922}
         alt=""
@@ -23,7 +23,7 @@ const Statistics = () => {
           <div className="grid grid-flow-row sm:grid-cols-4 gap-3 mt-4">
             <Image
               className="w-9 h-9 xs:w-[4.625rem] xs:h-[4.625rem]"
-              src="/Home/Business/SVG/takeControl.svg"
+              src="/Page/Business/SVG/takeControl.svg"
               width={74}
               height={74}
               alt=""
@@ -39,7 +39,7 @@ const Statistics = () => {
           <div className="grid grid-flow-row sm:grid-cols-4 gap-3 mt-4">
             <Image
               className="w-9 h-9 xs:w-[4.625rem] xs:h-[4.625rem]"
-              src="/Home/Business/SVG/shield.svg"
+              src="/Page/Business/SVG/shield.svg"
               width={74}
               height={74}
               alt=""

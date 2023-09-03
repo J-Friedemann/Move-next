@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import MenuHome from "./components/MenuHome";
 import MenuPage from "./components/MenuPage";
 import Link from "next/link";
 import PrimaryButton from "../utils/buttons/PrimaryButton";
@@ -34,7 +33,6 @@ const Header = () => {
           } sm:left-0 sm:relative sm:w-auto sm:h-auto sm:space-y-0 sm:duration-0 sm:pl-0 sm:content-center sm:flex sm:top-0 sm:items-center gap-6`}
         >
           <div className="sm:flex justify-between space-y-6 sm:space-y-0 sm:space-x-6">
-            <MenuHome />
             <MenuPage />
           </div>
           <PrimaryButton>Get Started</PrimaryButton>

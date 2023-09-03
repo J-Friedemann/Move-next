@@ -16,7 +16,7 @@ const OnePlace = () => {
         <div className="grid grid-cols-1 gap-2 md:grid-cols-2">
           <div className="flex items-center gap-3">
             <Image
-              src="/Home/Software/SVG/Checkmark-18.svg"
+              src="/Page/Software/SVG/Checkmark-18.svg"
               width={36}
               height={36}
               alt=""
@@ -25,7 +25,7 @@ const OnePlace = () => {
           </div>
           <div className="flex items-center gap-3">
             <Image
-              src="/Home/Software/SVG/Checkmark-18.svg"
+              src="/Page/Software/SVG/Checkmark-18.svg"
               width={36}
               height={36}
               alt=""
@@ -34,7 +34,7 @@ const OnePlace = () => {
           </div>
           <div className="flex items-center gap-3">
             <Image
-              src="/Home/Software/SVG/Checkmark-18.svg"
+              src="/Page/Software/SVG/Checkmark-18.svg"
               width={36}
               height={36}
               alt=""
@@ -43,7 +43,7 @@ const OnePlace = () => {
           </div>
           <div className="flex items-center gap-3">
             <Image
-              src="/Home/Software/SVG/Checkmark-18.svg"
+              src="/Page/Software/SVG/Checkmark-18.svg"
               width={36}
               height={36}
               alt=""
@@ -63,7 +63,7 @@ const OnePlace = () => {
         </button>
       </div>
       <Image
-        src="/Home/Software/Images/Dashboard.png"
+        src="/Page/Software/Images/Dashboard.png"
         className="max-w-[16rem] xs:max-w-xs sm:max-w-md mx-auto mt-10 lg:mt-28"
         width={754}
         height={823}

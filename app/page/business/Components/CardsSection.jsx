@@ -7,7 +7,7 @@ const CardsSection = () => {
       <div className="grid grid-cols-5 max-w-[16rem] xs:max-w-xs sm:max-w-md md:max-w-[37.75rem] mx-auto gap-y-4 gap-x-3 items-center bg-support4 p-4 rounded-md shadow-xl">
         <Image
           className="w-10 h-10 sm:w-20 sm:h-20"
-          src="/Home/Business/SVG/CreditCard.svg"
+          src="/Page/Business/SVG/CreditCard.svg"
           width={80}
           height={80}
           alt=""
@@ -23,7 +23,7 @@ const CardsSection = () => {
       <div className="grid grid-cols-5 max-w-[16rem] xs:max-w-xs sm:max-w-md md:max-w-[37.75rem] mx-auto gap-y-4 gap-x-3 items-center bg-support4 p-4 rounded-md shadow-xl">
         <Image
           className="w-10 h-10 sm:w-20 sm:h-20"
-          src="/Home/Business/SVG/PayAnywhere.svg"
+          src="/Page/Business/SVG/PayAnywhere.svg"
           width={80}
           height={80}
           alt=""
@@ -39,7 +39,7 @@ const CardsSection = () => {
       <div className="grid grid-cols-5 max-w-[16rem] xs:max-w-xs sm:max-w-md md:max-w-[37.75rem] mx-auto gap-y-4 gap-x-3 items-center bg-support4 p-4 rounded-md shadow-xl">
         <Image
           className="w-10 h-10 sm:w-20 sm:h-20"
-          src="/Home/Business/SVG/Increased.svg"
+          src="/Page/Business/SVG/Increased.svg"
           width={80}
           height={80}
           alt=""
@@ -55,7 +55,7 @@ const CardsSection = () => {
       <div className="grid grid-cols-5 max-w-[16rem] xs:max-w-xs sm:max-w-md md:max-w-[37.75rem] mx-auto gap-y-4 gap-x-3 items-center bg-support4 p-4 rounded-md shadow-xl">
         <Image
           className="w-10 h-10 sm:w-20 sm:h-20"
-          src="/Home/Business/SVG/FreeDebit.svg"
+          src="/Page/Business/SVG/FreeDebit.svg"
           width={80}
           height={80}
           alt=""

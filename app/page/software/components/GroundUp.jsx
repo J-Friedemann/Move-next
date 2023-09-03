@@ -13,13 +13,13 @@ const GroundUp = () => {
       </BodyText>
       <div className="relative flex justify-center citems-center">
         <Image
-          src="/Home/Software/Images/Image-10.png"
+          src="/Page/Software/Images/Image-10.png"
           width={1028}
           height={567}
           alt=""
         />
         <Image
-          src="/Home/Software/SVG/Button_Play.svg"
+          src="/Page/Software/SVG/Button_Play.svg"
           className="absolute self-center w-10 h-10 sm:w-14 sm:h-14 lg:w-20 lg:h-20"
           width={77}
           height={77}

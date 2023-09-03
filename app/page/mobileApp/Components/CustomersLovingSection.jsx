@@ -14,7 +14,7 @@ const CustomersLovingSection = () => {
       <div className="min-w-72 mx-auto grid grid-cols-3 lg:grid-cols-[18.5rem_repeat(2,_minmax(0,_1fr))] justify-items-start relative shadow-2xl p-6 lg:w-[51rem] lg:h-[22.6rem] lg:p-1.375rem lg:gap-x-5">
         <button className="absolute z-10 -left-6 w-10 h-10 lg:w-20 lg:h-20 lg:-left-10 self-center drop-shadow-xl">
           <Image
-            src="/Home/MobileApp/SVG/Control_Left.svg"
+            src="/Page/MobileApp/SVG/Control_Left.svg"
             width={80}
             height={80}
             alt=""
@@ -22,7 +22,7 @@ const CustomersLovingSection = () => {
         </button>
         <Image
           className="w-20 h-20 col-start-2 xs:col-start-1 rounded xs:rounded-full lg:rounded xs:row-span-2 lg:row-span-3 lg:w-[18.5rem] lg:h-[19.9rem] object-cover object-top"
-          src="/Home/MobileApp/Images/BogdanImage.png"
+          src="/Page/MobileApp/Images/BogdanImage.png"
           width={445}
           height={478}
           alt=""
@@ -39,7 +39,7 @@ const CustomersLovingSection = () => {
         </p>
         <button className="absolute z-10 -right-6 w-10 h-10  lg:w-20 lg:h-20 lg:-right-10 self-center drop-shadow-xl">
           <Image
-            src="/Home/MobileApp/SVG/Control_Right.svg"
+            src="/Page/MobileApp/SVG/Control_Right.svg"
             width={80}
             height={80}
             alt=""

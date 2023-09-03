@@ -14,25 +14,25 @@ const TransferSection = () => {
         </p>
         <div className="grid grid-cols-2">
           <Image
-            src="/Home/Business/Images/american.png"
+            src="/Page/Business/Images/american.png"
             width={243}
             height={104}
             alt=""
           />
           <Image
-            src="/Home/Business/Images/paypal.png"
+            src="/Page/Business/Images/paypal.png"
             width={243}
             height={104}
             alt=""
           />{" "}
           <Image
-            src="/Home/Business/Images/visa.png"
+            src="/Page/Business/Images/visa.png"
             width={243}
             height={104}
             alt=""
           />{" "}
           <Image
-            src="/Home/Business/Images/mastercard.png"
+            src="/Page/Business/Images/mastercard.png"
             width={243}
             height={104}
             alt=""
@@ -41,7 +41,7 @@ const TransferSection = () => {
       </div>
       <Image
         className="max-w-[16rem] xs:max-w-xs sm:max-w-md lg:max-w-lg mx-auto"
-        src="/Home/Business/Images/transferMoney.png"
+        src="/Page/Business/Images/transferMoney.png"
         width={710}
         height={892}
         alt=""

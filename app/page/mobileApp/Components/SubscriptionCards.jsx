@@ -16,7 +16,7 @@ const SubscriptionCards = () => {
           <div className="flex items-center gap-3">
             <Image
               className="w-6 h-6 xs:w-9 xs:h-9"
-              src="/Home/MobileApp/SVG/Checkmark-5.svg"
+              src="/Page/MobileApp/SVG/Checkmark-5.svg"
               width={36}
               height={36}
               alt=""
@@ -28,7 +28,7 @@ const SubscriptionCards = () => {
           <div className="flex items-center gap-3">
             <Image
               className="w-6 h-6 xs:w-9 xs:h-9"
-              src="/Home/MobileApp/SVG/Checkmark-5.svg"
+              src="/Page/MobileApp/SVG/Checkmark-5.svg"
               width={36}
               height={36}
               alt=""
@@ -40,7 +40,7 @@ const SubscriptionCards = () => {
           <div className="flex items-center gap-3">
             <Image
               className="w-6 h-6 xs:w-9 xs:h-9"
-              src="/Home/MobileApp/SVG/Checkmark-5.svg"
+              src="/Page/MobileApp/SVG/Checkmark-5.svg"
               width={36}
               height={36}
               alt=""
@@ -52,7 +52,7 @@ const SubscriptionCards = () => {
           <div className="flex items-center gap-3">
             <Image
               className="w-6 h-6 xs:w-9 xs:h-9"
-              src="/Home/MobileApp/SVG/Checkmark-5.svg"
+              src="/Page/MobileApp/SVG/Checkmark-5.svg"
               width={36}
               height={36}
               alt=""
@@ -75,7 +75,7 @@ const SubscriptionCards = () => {
           <div className="flex items-center gap-3">
             <Image
               className="w-6 h-6 xs:w-9 xs:h-9"
-              src="/Home/MobileApp/SVG/Checkmark-5.svg"
+              src="/Page/MobileApp/SVG/Checkmark-5.svg"
               width={36}
               height={36}
               alt=""
@@ -87,7 +87,7 @@ const SubscriptionCards = () => {
           <div className="flex items-center gap-3">
             <Image
               className="w-6 h-6 xs:w-9 xs:h-9"
-              src="/Home/MobileApp/SVG/Checkmark-5.svg"
+              src="/Page/MobileApp/SVG/Checkmark-5.svg"
               width={36}
               height={36}
               alt=""
@@ -99,7 +99,7 @@ const SubscriptionCards = () => {
           <div className="flex items-center gap-3">
             <Image
               className="w-6 h-6 xs:w-9 xs:h-9"
-              src="/Home/MobileApp/SVG/Checkmark-5.svg"
+              src="/Page/MobileApp/SVG/Checkmark-5.svg"
               width={36}
               height={36}
               alt=""
@@ -111,7 +111,7 @@ const SubscriptionCards = () => {
           <div className="flex items-center gap-3">
             <Image
               className="w-6 h-6 xs:w-9 xs:h-9"
-              src="/Home/MobileApp/SVG/Checkmark-5.svg"
+              src="/Page/MobileApp/SVG/Checkmark-5.svg"
               width={36}
               height={36}
               alt=""
@@ -138,7 +138,7 @@ const SubscriptionCards = () => {
           <div className="flex items-center gap-3">
             <Image
               className="w-6 h-6 xs:w-9 xs:h-9"
-              src="/Home/MobileApp/SVG/Checkmark-5.svg"
+              src="/Page/MobileApp/SVG/Checkmark-5.svg"
               width={36}
               height={36}
               alt=""
@@ -150,7 +150,7 @@ const SubscriptionCards = () => {
           <div className="flex items-center gap-3">
             <Image
               className="w-6 h-6 xs:w-9 xs:h-9"
-              src="/Home/MobileApp/SVG/Checkmark-5.svg"
+              src="/Page/MobileApp/SVG/Checkmark-5.svg"
               width={36}
               height={36}
               alt=""
@@ -162,7 +162,7 @@ const SubscriptionCards = () => {
           <div className="flex items-center gap-3">
             <Image
               className="w-6 h-6 xs:w-9 xs:h-9"
-              src="/Home/MobileApp/SVG/Checkmark-5.svg"
+              src="/Page/MobileApp/SVG/Checkmark-5.svg"
               width={36}
               height={36}
               alt=""
@@ -174,7 +174,7 @@ const SubscriptionCards = () => {
           <div className="flex items-center gap-3">
             <Image
               className="w-6 h-6 xs:w-9 xs:h-9"
-              src="/Home/MobileApp/SVG/Checkmark-5.svg"
+              src="/Page/MobileApp/SVG/Checkmark-5.svg"
               width={36}
               height={36}
               alt=""

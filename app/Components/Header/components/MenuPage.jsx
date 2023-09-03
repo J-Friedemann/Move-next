@@ -3,13 +3,11 @@ import { Menu } from "@headlessui/react";
 import Image from "next/image";
 
 const MenuPage = () => {
-  const pages = [
-    { href: "/page/aboutUs", label: "About Us" },
-    { href: "/page/careers", label: "Careers" },
-    { href: "/page/caseStudies", label: "Case Studies" },
-    { href: "/page/contacts", label: "Contacts" },
-    { href: "/page/pricing", label: "Pricing" },
-    { href: "/page/pricingTable", label: "Pricing Table" },
+  const home = [
+    { href: "/", label: "Desktop App" },
+    { href: "/page/business", label: "Business" },
+    { href: "/page/mobileApp", label: "Mobile App" },
+    { href: "/page/software", label: "Software" },
   ];
   return (
     <Menu>
@@ -25,7 +23,7 @@ const MenuPage = () => {
           />
         </Menu.Button>
         <Menu.Items className="top-8 absolute mt-2 w-56 rounded-md shadow-lg bg-support4 ring-1 ring-support3 ring-opacity-5 divide-y divide-support3/50 focus:outline-none z-50">
-          {pages.map((link) => (
+          {home.map((link) => (
             <Menu.Item
               as="a"
               key={link.href}

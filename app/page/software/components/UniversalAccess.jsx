@@ -29,7 +29,7 @@ const UniversalAccess = () => {
         </div>
       </div>
       <Image
-        src="/Home/Software/Images/comands.png"
+        src="/Page/Software/Images/comands.png"
         className=" max-w-[16rem] xs:max-w-xs sm:max-w-md lg:max-w-lg xl:max-w-2xl mx-auto mt-16 lg:mt-10"
         width={704}
         height={767}

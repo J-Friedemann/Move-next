@@ -14,7 +14,7 @@ const GoMove = () => {
       </BodyText>
       <div className="mt-20 grid grid-cols-1 gap-8 lg:grid-cols-3">
         <Features.Root>
-          <Features.Image path="/Home/Software/SVG/icon-6.svg" />
+          <Features.Image path="/Page/Software/SVG/icon-6.svg" />
           <Features.Name>Flexible planning</Features.Name>
           <Features.Description>
             The rich features of our platform make it easy for your team member
@@ -22,7 +22,7 @@ const GoMove = () => {
           </Features.Description>
         </Features.Root>
         <Features.Root>
-          <Features.Image path="/Home/Software/SVG/icon-5.svg" />
+          <Features.Image path="/Page/Software/SVG/icon-5.svg" />
           <Features.Name>Transparent execution</Features.Name>
           <Features.Description>
             Our software brings transparency to your work processes and the
@@ -30,7 +30,7 @@ const GoMove = () => {
           </Features.Description>
         </Features.Root>
         <Features.Root>
-          <Features.Image path="/Home/Software/SVG/icon-4.svg" />
+          <Features.Image path="/Page/Software/SVG/icon-4.svg" />
           <Features.Name>Actionable results</Features.Name>
           <Features.Description>
             Extensive reporting functionality gives your team critical insight
@@ -38,7 +38,7 @@ const GoMove = () => {
           </Features.Description>
         </Features.Root>
         <Features.Root>
-          <Features.Image path="/Home/Software/SVG/icon-3.svg" />
+          <Features.Image path="/Page/Software/SVG/icon-3.svg" />
           <Features.Name>Scalable evolution</Features.Name>
           <Features.Description>
             Move software helps people in your team work with project resolution
@@ -46,7 +46,7 @@ const GoMove = () => {
           </Features.Description>
         </Features.Root>
         <Features.Root>
-          <Features.Image path="/Home/Software/SVG/icon-2.svg" />
+          <Features.Image path="/Page/Software/SVG/icon-2.svg" />
           <Features.Name>Cloud Storage</Features.Name>
           <Features.Description>
             You can store your projects without leaving our product. Move Cloud
@@ -54,7 +54,7 @@ const GoMove = () => {
           </Features.Description>
         </Features.Root>
         <Features.Root>
-          <Features.Image path="/Home/Software/SVG/icon.svg" />
+          <Features.Image path="/Page/Software/SVG/icon.svg" />
           <Features.Name>Analytics API</Features.Name>
           <Features.Description>
             When working with metrica our API manager can help you connect it

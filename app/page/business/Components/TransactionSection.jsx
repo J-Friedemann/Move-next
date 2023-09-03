@@ -6,7 +6,7 @@ const TransactionSection = () => {
     <section className="grid grid-flow-row mx-auto gap-10 xl:gap-24 lg:grid-cols-2 p-4 mt-36 ">
       <Image
         className=" max-w-[16rem] xs:max-w-xs sm:max-w-md lg:max-w-lg xl:max-w-2xl mx-auto content-center"
-        src="/Home/Business/Images/CreditCard.png"
+        src="/Page/Business/Images/CreditCard.png"
         width={1408}
         height={1852}
         alt="Imagem de um cartão de credito"
@@ -22,7 +22,7 @@ const TransactionSection = () => {
         <div className="grid grid-flow-row sm:grid-cols-4 gap-3 mt-4">
           <Image
             className="w-9 h-9 xs:w-[4.625rem] xs:h-[4.625rem] "
-            src="/Home/Business/SVG/chart-pie.svg"
+            src="/Page/Business/SVG/chart-pie.svg"
             width={74}
             height={74}
             alt=""
@@ -38,7 +38,7 @@ const TransactionSection = () => {
         <div className="grid grid-flow-row sm:grid-cols-4 gap-3 mt-4">
           <Image
             className="w-9 h-9 xs:w-[4.625rem] xs:h-[4.625rem]"
-            src="/Home/Business/SVG/sale.svg"
+            src="/Page/Business/SVG/sale.svg"
             width={74}
             height={74}
             alt=""
